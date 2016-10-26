@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.layout-fullscreen {
+  background: radial-gradient(circle, #C3AA94, #AE957F);
+}
+
+.home-text {
+  color: white;
+}
+
+p.home-text {
+  font-weight: lighter;
+}
+
+h1.home-text {
+  margin-bottom: 0;
+}
