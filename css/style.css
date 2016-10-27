@@ -1,19 +1,28 @@
 body {
+  font-family: 'roboto', sans-serif;
+  font-size: 16px;
   margin: 0;
+  webkit-font-smoothing: antialiased;
 }
 
-.layout-fullscreen {
-  background: radial-gradient(circle, #C3AA94, #AE957F);
-}
-
-.home-text {
+.text-white {
   color: white;
 }
 
-p.home-text {
-  font-weight: lighter;
+h2, h3 {
+  font-weight: normal;
+  margin: 0;
 }
 
-h1.home-text {
-  margin-bottom: 0;
+h2 {
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+.home {
+  background: radial-gradient(ellipse at center, rgba(205,179,152, .8) 0%,#ae957f 100%), 
+  url(http://i.stack.imgur.com/PEnJm.png);
 }
