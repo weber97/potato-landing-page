@@ -5,6 +5,14 @@ body {
   webkit-font-smoothing: antialiased;
 }
 
+/* FIRST SECTION */
+
+.text-white {
+  color: white;
+}
+
+
+/* MENU */
 header {
   width: 100%;
   background: none;
@@ -23,7 +31,12 @@ header {
   height: 35px;
 }
 
+#potato-title:hover {
+  cursor: pointer;
+}
+
 .menu {
+  margin-top: 2px;
   display: inline-block;
   padding-right: 100px;
 }
@@ -40,19 +53,30 @@ header {
   outline: 0;
 }
 
-.button-menu span:hover {
+.button-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-menu a:hover {
   cursor: pointer; 
 }
 
 #buy {
   border: 1px solid white;
   border-radius: 25px;
+  transition: background .4s, border .4s;
 }
 
-.text-white {
-  color: white;
+#buy:hover {
+  cursor: pointer;
+  background: black;
+  border: 1px solid black;
 }
+/* END MENU */
 
+
+/* BODY FIRST SECTION --> TWO TITLES AND A IMAGE */
 h2, h3 {
   font-weight: normal;
   margin: 0;
@@ -60,14 +84,33 @@ h2, h3 {
 
 h2 {
   font-size: 3.5em;
+  margin-bottom: 15px;
+  margin-top: 60px;
 }
 
 h3 {
   font-size: 1.3em;
+  margin-bottom: 35px;
 }
 
-.home {
+.first-section {
   background: radial-gradient(ellipse at center, rgba(205,179,152,.8) 0%,#ae957f 100%), 
   url(http://i.stack.imgur.com/PEnJm.png);
 }
 
+.potato-intro-image {
+  height: 300px;
+}
+/* END BODY FIRST SECTION */
+
+/* END FIRST SECTION */
+
+
+/* SECOND SECTION */
+.second-section {
+  background: red;
+}
+
+
+
+/* END SECOND SECTION */
