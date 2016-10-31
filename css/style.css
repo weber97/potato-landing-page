@@ -5,6 +5,50 @@ body {
   webkit-font-smoothing: antialiased;
 }
 
+header {
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  text-align: right;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+}
+
+#potato-title {
+  position: fixed;
+  color: white;
+  left: 150px;
+  margin: 0;
+  height: 35px;
+}
+
+.menu {
+  display: inline-block;
+  padding-right: 100px;
+}
+
+.button-menu {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  background: none;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  outline: 0;
+}
+
+.button-menu span:hover {
+  cursor: pointer; 
+}
+
+#buy {
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
 .text-white {
   color: white;
 }
@@ -23,6 +67,7 @@ h3 {
 }
 
 .home {
-  background: radial-gradient(ellipse at center, rgba(205,179,152, .8) 0%,#ae957f 100%), 
+  background: radial-gradient(ellipse at center, rgba(205,179,152,.8) 0%,#ae957f 100%), 
   url(http://i.stack.imgur.com/PEnJm.png);
 }
+
